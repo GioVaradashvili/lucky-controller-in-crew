@@ -13,7 +13,8 @@ names = [
     "ნიკოლოზ ცაავა",
     "ირაკლი გერაძე",
     "ნიკოლოზ ნადირაძე",
-    "გაბრიელ თორია"
+    "გაბრიელ თორია",
+    "მირანდა ჯინჭარაძე "
 ]
 
 lucky_controllers = []
@@ -23,7 +24,7 @@ def get_cont(ls):
 
     lucky_controllers.append(new_cont)
 
-for _ in range(3):
+for _ in range(2):
     wait_time = random.randint(1, 5)
     time.sleep(wait_time) 
     
