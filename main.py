@@ -24,7 +24,7 @@ def get_cont(ls):
 
     lucky_controllers.append(new_cont)
 
-for _ in range(2):
+for _ in range(3):
     wait_time = random.randint(1, 5)
     time.sleep(wait_time) 
     
